@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yansıma Sesleri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="apple-header">
+    <h1>Yansıma Sesleri</h1>
+  </header>
+  <main>
+    <div class="honeycomb-container">
+      <!-- Buttons for sound effects -->
+      <button id="start" class="sound-button" style="background: #2A2A2A; margin-bottom: 20px;">
+        > INITIALIZE SOUND SYSTEM_
+      </button>
+      <button class="sound-button" data-sound="aaa.mp3">AAA</button>
+      <button class="sound-button" data-sound="adam-ya-adam-geldi-adam.mp3">Geldi Adam !!</button>
+      <button class="sound-button" data-sound="akasya-nuri-babacum.mp3">Ali Kefal</button>
+      <button class="sound-button" data-sound="akasya-sasirma.mp3">Şaşırma / Akasya</button>
+      <button class="sound-button" data-sound="akasya-uckagit.mp3">Sinan ÜçKağıt</button>
+      <button class="sound-button" data-sound="allah-belanizi-versin.mp3">Allah Belanızı Versin !</button>
+      <button class="sound-button" data-sound="aykut-elmas-aglama.mp3">Ağlama Hadi Oyna</button>
+      <button class="sound-button" data-sound="aykut-elmas-bu-ne-oglum.mp3">Bu ne oğlum ??</button>
+      <button class="sound-button" data-sound="aykut-elmas-hocam-osman.mp3">Hocam Osmanı çizdim</button>
+      <button class="sound-button" data-sound="aykut-elmas-osman-seni-cizdim.mp3">Osman seni çizdim</button>
+      <button class="sound-button" data-sound="benim-icin-onemli.mp3">Benim için önemli!!</button>
+      <button class="sound-button" data-sound="biggest-piece-of-dog.mp3">Biggest piece of dog</button>
+      <button class="sound-button" data-sound="bruh.mp3">Bruh</button>
+      <button class="sound-button" data-sound="cok-degisiksiniz.mp3">Çok değişiksiniz, hepiniz</button>
+      <button class="sound-button" data-sound="crickets.mp3">Cool</button>
+      <button class="sound-button" data-sound="damn-son.mp3">Dem San Ltd Şti</button>
+      <button class="sound-button" data-sound="fbi-open-up.mp3">Fbi open upp</button>
+      <button class="sound-button" data-sound="golf-ball-hit.mp3">Golf Ball</button>
+      <button class="sound-button" data-sound="gta-wasted.mp3">Wasted</button>
+      <button class="sound-button" data-sound="homelander-perfect.mp3">Homelander Perfect</button>
+      <button class="sound-button" data-sound="i-mean-its-alright.mp3">Alright</button>
+      <button class="sound-button" data-sound="k-agam-keske-bu-arkadasa.mp3">Keşke bu arkadaşa</button>
+      <button class="sound-button" data-sound="k-aklimiz-gitti.mp3">Ne öyle geliyorsun !</button>
+      <button class="sound-button" data-sound="k-allahim-sen-kimseyi-boyle-sinama.mp3">Allahım sen kimseyi böyle sınama</button>
+      <button class="sound-button" data-sound="k-bak-samimi-soyluyorum-vazgec.mp3">Vazgeç kanka</button>
+      <button class="sound-button" data-sound="k-bizi-bitirdin-be.mp3">Bizi bitirdin be</button>
+      <button class="sound-button" data-sound="k-gec-nereye-geciyorsan-gec.mp3">Geç nereye geçiyorsan geç!</button>
+      <button class="sound-button" data-sound="k-git-bir-bak.mp3">Git bir bak</button>
+      <button class="sound-button" data-sound="k-ingiltere-prensi.mp3">İngiltere prensi</button>
+      <button class="sound-button" data-sound="k-kaskoda-bir-numara.mp3">Kaskoda 1 Numaraa !</button>
+      <button class="sound-button" data-sound="k-kor-oldum.mp3">Kör Oldum!!!</button>
+      <button class="sound-button" data-sound="k-lokum.mp3">Lokum</button>
+      <button class="sound-button" data-sound="k-size-bir-enerji-patlaması.mp3">Size bir enerji patlaması</button>
+      <button class="sound-button" data-sound="keloglan-gecis.mp3">Keloglan Geçiş</button>
+      <button class="sound-button" data-sound="marda-tonne-defarkento.mp3">Büyü</button>
+      <button class="sound-button" data-sound="mario-jump.mp3">Jump</button>
+      <button class="sound-button" data-sound="mihriban.mp3">Music to my ears</button>
+      <button class="sound-button" data-sound="minecraft-drinking.mp3">Drinking water</button>
+      <button class="sound-button" data-sound="minecraft-oof.mp3">UU</button>
+      <button class="sound-button" data-sound="nani.mp3">NANİ !?</button>
+      <button class="sound-button" data-sound="oo-ee-a-e-a.mp3">kedyy</button>
+      <button class="sound-button" data-sound="pu-kara-kopek.mp3">Kara köpppek</button>
+      <button class="sound-button" data-sound="punch.mp3">Punch</button>
+      <button class="sound-button" data-sound="quack.mp3">Quack</button>
+      <button class="sound-button" data-sound="selim-ozten.mp3">Selim Özten</button>
+      <button class="sound-button" data-sound="sen-benim-geceleri-uyudugumu.mp3">Polat Alemdars</button>
+      <button class="sound-button" data-sound="sinan-kaya-abov.mp3">Abov</button>
+      <button class="sound-button" data-sound="splat.mp3">Splat</button>
+      <button class="sound-button" data-sound="tren-yapacaz.mp3">Tren yapacaz</button>
+      <button class="sound-button" data-sound="water-plop.mp3">Water Plop</button>
+      <button class="sound-button" data-sound="what-bottom-meme.mp3">What Bottom Sound</button>
+      <button class="sound-button" data-sound="whoosh-transition-whipswish-pan.mp3">Whoosh</button>
+      <button class="sound-button" data-sound="windows-xp-shutdown.mp3">Windows Shutdown</button>
+      <button class="sound-button" data-sound="windows-xs-startup.mp3">Windows Startup</button>
+      <button class="sound-button" data-sound="wow.mp3">WOOOW!!!</button>
+      <button class="sound-button" data-sound="3_kat.m4a">3.kat
+      <button class="sound-button" data-sound="sen-ne-anlatiyon.mp3">Sen ne anlatıyon be abla
+      <button class="sound-button" data-sound="Hurdaci-geliyah.mp3">Hurdacı sesi
+      </button>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+  <div id="log-container">
+    <div id="log-header">
+      <h3>Debug Logs</h3>
+      <button id="clear-logs">Clear Logs</button>
+    </div>
+    <div id="log-content"></div>
+  </div>
+</body>
+</html>
